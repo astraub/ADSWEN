@@ -23,6 +23,10 @@ public class PharmacyController {
 		}
 	}
 	
+	public void methodenaufruf(){
+		this.searchForMedicine();
+	}
+	
 	private void searchForMedicine(){
 		String symptoms;
 		boolean found= false;

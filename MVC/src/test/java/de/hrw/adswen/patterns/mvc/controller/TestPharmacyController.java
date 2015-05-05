@@ -46,9 +46,9 @@ public class TestPharmacyController {
 		Mockito.when(view.getSymptoms()).thenReturn("krankheit4");
 		
 		//Ergebnis + Annahme
-		//Drug result = controller.searchForMedicine();
+		controller.methodenaufruf();
 						
-		//assertTrue(result.getGoodFor().contains(result));
+		//assertTrue();
 		
 	}
 
